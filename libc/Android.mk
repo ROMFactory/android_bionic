@@ -45,9 +45,10 @@ libc_common_src_files := \
 	stdio/wbuf.c \
 	stdlib/atexit.c \
 	stdlib/ctype_.c \
-	stdlib/exit.c \
+	stdlib/_Exit.c \
 	stdlib/getenv.c \
 	stdlib/putenv.c \
+	stdlib/quick_exit.c \
 	stdlib/setenv.c \
 	stdlib/strtod.c \
 	stdlib/strtoimax.c \
